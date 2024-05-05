@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+section{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.code{
+    display: flex;
+    width: 40%;
+    height: 100%;
+    flex-direction: column;
+    background-color: black;
+}
+
+textarea{
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    height: 33.33%;
+    background: rgb(45, 45, 45);
+    outline: none;
+    border: none;
+    resize: none;
+    padding: 10px;
+    font-size: 18px;
+    font-family: "Courgette", cursive;
+    color: #fff;
+}
+
+label{
+ color: #fff;
+ width: 100%;
+ padding: 5px 40px;
+ border-top: 1px solid gray;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+label i{
+    font-size: 25px;
+}
+
+.code label:first-child i{
+    color: orange;
+}
+
+.code label:nth-child(3) i{
+    color: rgb(56, 109, 243);
+}
+
+.code label:nth-child(5) i{
+    color: #FFD43B;
+}
+
+iframe{
+    width: 60%;
+    border: none;
+}
+
+textarea::-webkit-scrollbar{
+    width: 5px;
+    height: 5px;
+}
+textarea::-webkit-scrollbar-thumb{
+    background-color: rgb(192, 192, 192);
+    border: 31px none #ffff;
+    border-radius: 5px;
+}

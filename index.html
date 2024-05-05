@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editeur de code</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="scipt.js" defer></script>
+</head>
+<body>
+    <main>
+        <section>
+            <div class="code">
+                <label><i class="fa-brands fa-html5"></i><p>HTML</p></label>
+                <textarea id="code-html" placeholder="Rentrer votre code HTML..." cols="30" rows="10"></textarea>
+                <label><i class="fa-brands fa-css3-alt" ></i><p>CSS</p></label>
+                <textarea id="code-css" placeholder="Rentrer votre code CSS..." cols="30" rows="10"></textarea>
+                <label><i class="fa-brands fa-js"></i><p>JavaScript</p></label>
+                <textarea id="code-js" placeholder="Rentrer votre code JavaScript..." cols="30" rows="10"></textarea>
+            </div>
+            <iframe id="page"></iframe>
+        </section>
+    </main>
+</body>
+</html>
